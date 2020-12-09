@@ -7,4 +7,6 @@ if [ "$user" = '0' ]; then
 	[ -d "/mosquitto" ] && chown -R mosquitto:mosquitto /mosquitto || true
 fi
 
+
+
 exec "$@"
